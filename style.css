@@ -13,6 +13,8 @@
     margin: 15px;
     color: #181818;
     overflow: hidden;
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: left -20px;
 }
 
 h1 {
@@ -66,9 +68,18 @@ a {
 .logoImg img {
     max-width: 720px;
 }
-@media screen and (max-width: 480px){
+
+@keyframes swing {
+    0% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+@media screen and (max-width: 480px) {
     #root {
-            display: block;
-          }
-        
+        display: block;
+    }
 }
