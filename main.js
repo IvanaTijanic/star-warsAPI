@@ -17,16 +17,15 @@ fetch('https://swapi.dev/api/people/')
            <h1 style="text-align:center;">${user.name}</h1>
         </div>
 
-           <img src="http://starwars-visualguide.com/assets/img/species/${i + 5}.jpg">
+           <img src="http://starwars-visualguide.com/assets/img/characters/${i+1}.jpg">
 
-           <p class="details"> Classification:<span class="detailsResults"> ${user.classification}</span></p>
-           <p class="details"> Designation:<span class="detailsResults"> ${user.designation}</span></p>
-           <p class="details"> Average height:<span class="detailsResults"> ${user.average_height}</span></p>
-           <p class="details"> Skin colors:<span class="detailsResults"> ${user.skin_colors}</span></p>
-           <p class="details"> Hair colors:<span class="detailsResults"> ${user.hair_colors}</span></p>
+           <p class="details"> Height:<span class="detailsResults"> ${user.height}</span></p>
+           <p class="details"> Mass:<span class="detailsResults"> ${user.mass}</span></p>
+           <p class="details"> Hair color:<span class="detailsResults"> ${user.hair_color}</span></p>
+           <p class="details"> Skin color:<span class="detailsResults"> ${user.skin_color}</span></p>
            <p class="details"> Eye colors:<span class="detailsResults"> ${user.eye_colors}</span></p>
-           <p class="details"> Average lifespan:<span class="detailsResults"> ${user.average_lifespan}</span></p>
-           <p class="details"> Language:<span class="detailsResults"> ${user.language}</span></p>
+           <p class="details"> Birth year:<span class="detailsResults"> ${user.birth_year}</span></p>
+           <p class="details"> Gender:<span class="detailsResults"> ${user.gender}</span></p>
        </div>`
             console.log(sablon);
 

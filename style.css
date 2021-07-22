@@ -62,12 +62,10 @@ a {
 }
 
 .logoImg {
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
 }
 
-.logoImg img {
-    max-width: 720px;
-}
 
 @keyframes swing {
     0% {
