@@ -1,6 +1,6 @@
 const root = document.getElementById("root")
 
-fetch('https://swapi.co/api/species/')
+fetch('https://swapi.dev/api/people/')
     .then(response => response.json())
     .then(x => {
         let sablon = ""
@@ -17,7 +17,7 @@ fetch('https://swapi.co/api/species/')
            <h1 style="text-align:center;">${user.name}</h1>
         </div>
 
-           <img src="http://starwars-visualguide.com/assets/img/species/${i + 5}.jpg">
+           <img src="http://starwars-visualguide.com/assets/img/people/${i + 5}.jpg">
 
            <p class="details"> Classification:<span class="detailsResults"> ${user.classification}</span></p>
            <p class="details"> Designation:<span class="detailsResults"> ${user.designation}</span></p>
