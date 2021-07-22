@@ -29,8 +29,8 @@ h1 {
 }
 
 .dot {
-    height: 18px;
-    width: 18px;
+    height: 15px;
+    width: 15px;
     border: 2px solid #181818;
     border-radius: 50%;
     display: inline-block;
